@@ -1,9 +1,9 @@
 package api_init
 
 import (
+	"github.com/apiboxgo/library-utils/config"
+	"github.com/apiboxgo/library-utils/db"
 	"gorm.io/gorm"
-	"library-utils/config"
-	"library-utils/db"
 )
 
 type InitGlobalStruct struct {

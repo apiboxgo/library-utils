@@ -3,10 +3,10 @@ package db
 import (
 	"errors"
 	"fmt"
+	"github.com/apiboxgo/library-utils/config"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
-	"library-utils/config"
 )
 
 const DbDriverPostgres = "postgres"
