@@ -1,4 +1,4 @@
-module library-utils
+module github.com/apiboxgo/library-utils
 
 go 1.24
 
